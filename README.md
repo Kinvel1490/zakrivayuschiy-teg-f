@@ -1,1 +1,1 @@
-https://kinvel1490.github.io/zakrivayuschiy-teg-f/
+https://github.com/Kinvel1490/zakrivayuschiy-teg-f.git
