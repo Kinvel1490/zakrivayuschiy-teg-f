@@ -1,1 +1,19 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-main: "Inter-Variable";
+    --font-accent: "PressStart2P-Regular";
+    --fw-normal: 400;
+    --fw-bold: 700;
+    --inline-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --color-main: #000;
+    --color-bg: #fff;
+    --borders: 2px solid var(--color-main);
+    --contour-color: #000;
+    --animation-fill-color: #f00;
+}
+
+@media (width <= 375px) {
+    :root {
+        --inline-size: 100%;
+    }
+}

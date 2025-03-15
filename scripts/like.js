@@ -39,3 +39,13 @@ function setButtonText(heart, button) {
     );
   }
 }
+
+document.addEventListener("DOMContentLoaded", ()=>{
+  document.querySelector('.footer_button').addEventListener('click', ()=>{
+    document.getElementById('save_dialog').showModal()
+  })
+
+  document.querySelector('.footer__button_ok').addEventListener('click', ()=>{
+    document.getElementById('save_dialog').close()
+  })
+})
