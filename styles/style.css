@@ -84,11 +84,11 @@
   mix-blend-mode: hard-light;
 }
 
-.text-uppercase{
+.text-uppercase {
   text-transform: uppercase;
 }
 
-@supports(-webkit-text-stroke: 1px var(--color-bg)){
+@supports(-webkit-text-stroke: 1px var(--color-bg)) {
   .card__water-mark {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--color-bg);
@@ -212,7 +212,7 @@
   transition: fill .3s .06s;
 }
 
-.card__icon-button .like-icon.is-liked .heart-group{
+.card__icon-button .like-icon.is-liked .heart-group {
   animation: heart-scaling .3s ease-in .1s;
   transform-origin: center;
 }
