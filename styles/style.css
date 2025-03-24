@@ -107,7 +107,6 @@
   display: flex;
   align-items: center;
   padding: 4px 10px;
-  letter-spacing: 0.006em;
   border: var(--borders);
 }
 
@@ -252,7 +251,7 @@
   background-color: var(--color-bg);
   text-align: center;
   font-size: 14px;
-  padding: 12px;
+  padding: 10px;
   margin-top: 30px;
   font-family: var(--font-accent), fantasy;
   text-transform: uppercase;
@@ -283,6 +282,11 @@
 }
 
 @media (width <= 375px) {
+  .save__dialog[open] {
+    max-width: 100%;
+    padding: 30px 39px;
+  }
+
   .save__button {
     flex-direction: column;
     inline-size: 310px;
@@ -293,5 +297,9 @@
     inline-size: 28px;
     margin-bottom: 8px;
     margin-right: 0;
+  }
+
+  .dialog_floppy {
+    margin-bottom: 0;
   }
 }
